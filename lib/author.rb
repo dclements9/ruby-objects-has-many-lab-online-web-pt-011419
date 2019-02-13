@@ -8,4 +8,7 @@ attr_accessor :name
     post.author = self
     @@posts << post
   end
+  def self.posts
+    @@posts
+  end
 end
